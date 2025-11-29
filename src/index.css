@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  background: #FFFFFF;
+  color: #242424;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F8F8F8;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #D8D8D8;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #B8B8B8;
+}
+
+/* Selection */
+::selection {
+  background: #000000;
+  color: #FFFFFF;
+}
+
+/* Typography utilities */
+.font-serif {
+  font-family: 'Source Serif Pro', Georgia, serif;
+}
+
+/* Quote styling */
+.quote-block {
+  font-family: 'Source Serif Pro', Georgia, serif;
+  font-style: italic;
+}
